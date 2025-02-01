@@ -4,7 +4,8 @@ function searchMovie() {
 
   // Jalankan AJAX :
   $.ajax({
-    url: "http://www.omdbapi.com",
+    // Kalau ingin upload di github -> harus https
+    url: "https://www.omdbapi.com",
     type: "get",
     dataType: "json",
     data: {
