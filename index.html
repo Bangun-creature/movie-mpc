@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>film</title>
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900"
+      rel="stylesheet"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- API KEY : http://www.omdbapi.com/?i=tt3896198&apikey=76063137 -->
+  </head>
+  <body>
+    <main class="main" id="main">
+      <div class="search">
+        <div
+          class="search-content"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="600"
+        >
+          <input
+            type="text"
+            class="search-input"
+            id="search-input"
+            placeholder="Cari Judul Film Anda di Sini"
+            autofocus
+          />
+          <button class="search-button" id="search-button">Cari</button>
+        </div>
+      </div>
+
+      <div class="card-container" id="card-container">
+        <!-- From JS -->
+      </div>
+
+      <div id="container-detail">
+        <!-- From JS -->
+      </div>
+    </main>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Link JQuery from JQuery-CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Javascript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
