@@ -268,4 +268,10 @@ main .search .search-content input:focus {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .search-content {
+    width: 100%;
+  }
+}
+
 /* HP Responsive */
