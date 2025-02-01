@@ -55,10 +55,6 @@ body {
   color: #fcfcfca2;
 }
 
-main .search .search-content input:focus {
-  /* border: 1px solid #fdfdfd; */
-}
-
 .search-content .search-button {
   font-weight: 500;
   background-color: #2e2d2c;
@@ -271,6 +267,10 @@ main .search .search-content input:focus {
 @media screen and (max-width: 576px) {
   .search-content {
     width: 100%;
+  }
+
+  .card-detail {
+    width: 80%;
   }
 }
 
