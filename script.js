@@ -67,7 +67,7 @@ $("#card-container").on("click", "#see-details", function (event) {
 
   // Jalankan ajax lagi
   $.ajax({
-    url: "http://www.omdbapi.com",
+    url: "https://www.omdbapi.com",
     type: "get",
     dataType: "json",
     data: {
